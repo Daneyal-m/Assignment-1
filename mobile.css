@@ -1,0 +1,146 @@
+/* ============================================================
+   Mobile Stylesheet (Max-Width: 768px)
+   ============================================================ */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: brown;
+    background-color: #F2D3D0;
+}
+
+/* Header & Navigation */
+header {
+    background-color: #F7B4AE;
+    color: brown;
+    padding: 24px 16px;
+    text-align: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+header nav a {
+    color: brown;
+    margin: 0;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Typography & Headings */
+body h2 {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 1.5rem;
+}
+
+body h3 {
+    text-align: center;
+    padding: 0 16px;
+}
+
+/* About Section */
+#About h2,
+#About p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#About p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Projects Section */
+#projects {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 0 16px;
+}
+
+.card {
+    background-color: #F2B999;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    width: 100%;
+    margin: 0 0 16px 0;
+    font-size: 16px;
+}
+
+.card img,
+img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 16px;
+}
+
+/* Contact Section & Form */
+#Contact {
+    padding: 0 16px;
+}
+
+#Contact .card {
+    background-color: bisque;
+    color: brown;
+    width: 100%;
+    min-height: auto;
+    margin: 24px auto;
+    padding: 24px 16px;
+}
+
+#Contact .card h2 {
+    margin: 0 0 16px;
+    text-align: center;
+}
+
+#Contact input {
+    display: block;
+    width: 100%;
+    height: 40px;
+    font-size: 16px; /* Prevents auto-zoom on mobile iOS */
+    margin-bottom: 12px;
+}
+
+#Contact .card button {
+    border: 1px solid brown;
+    background-color: #F7B4AE;
+    color: brown;
+    width: 100%;
+    max-width: 160px;
+    height: 45px;
+    display: block;
+    margin: 20px auto 0;
+    font-size: 18px;
+}
+
+#Contact .card button:hover {
+    background-color: white;
+    color: brown;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background-color: #F7B4AE;
+    color: brown;
+    text-align: center;
+    padding: 20px 16px;
+    font-size: small;
+}
+
+footer p {
+    margin: 4px 0;
+}

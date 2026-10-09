@@ -1,0 +1,140 @@
+/* ============================================================
+   Tablet Stylesheet (Screen widths: 769px to 1024px)
+   ============================================================ */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: brown;
+    background-color: #F2D3D0;
+}
+
+/* Header & Navigation */
+header {
+    background-color: #F7B4AE;
+    color: brown;
+    padding: 3.5%;
+    text-align: center;
+}
+
+header nav {
+    margin-top: 8px;
+}
+
+header nav a {
+    color: brown;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+/* Headings & About Section */
+body h2 {
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+#About h2,
+#About p {
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+#About p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+body h3 {
+    text-align: center;
+}
+
+/* Projects Section - 2-Column Grid/Flex Layout */
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0 32px;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: #F2B999;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    /* Flex-basis calculation for 2 equal columns minus the gap */
+    flex: 0 1 calc(50% - 10px);
+    margin: 10px 0;
+    font-size: 17px;
+}
+
+.card img,
+img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 16px;
+}
+
+/* Contact Section & Form */
+#Contact {
+    padding: 0 32px;
+}
+
+#Contact .card {
+    background-color: bisque;
+    color: brown;
+    width: 75%; /* Sits nicely centered without being squished like 50% */
+    min-height: auto;
+    margin: 40px auto;
+    padding: 32px 48px;
+}
+
+#Contact .card h2 {
+    margin: 10px auto 20px;
+    text-align: center;
+}
+
+#Contact input {
+    display: block;
+    width: 100%;
+    height: 38px;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+#Contact .card button {
+    border: 1px solid brown;
+    background-color: #F7B4AE;
+    color: brown;
+    width: 130px;
+    height: 48px;
+    display: block;
+    margin: 24px auto 0;
+    font-size: 18px;
+}
+
+#Contact .card button:hover {
+    background-color: white;
+    color: brown;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background-color: #F7B4AE;
+    color: brown;
+    text-align: left;
+    padding: 20px 32px;
+    font-size: small;
+}
+
+footer p {
+    margin: 3px 0;
+}
