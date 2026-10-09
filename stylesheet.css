@@ -48,6 +48,7 @@ flex-wrap: wrap;
 
 .card {
 background-color: #F2B999;
+background: -webkit-linear-gradient(top, #F2B999 0%, #F7B4AE 100%);
 border: 1px solid #ccc;
 border-radius: 8px;
 padding: 20px;
@@ -67,6 +68,7 @@ font-size: 18px;
 
 #Contact .card{
     background-color: bisque;
+    background: linear-gradient(135deg, bisque 0%, #F7B4AE 100%);
     color: brown;
     width: 50%;
     margin: 0 auto;
