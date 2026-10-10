@@ -75,12 +75,12 @@ The website uses a warm pastel and earth-toned palette designed for soft contras
 
 Responsive behavior is divided across three distinct stylesheets linked via HTML media queries:
 
-<link rel="stylesheet" href="stylesheet.css">
+* `<link rel="stylesheet" href="stylesheet.css">`
     The desktop dimensions use spacious 50px side margins, fluid 5% header padding, and capped element widths—like the 50% contact form and 600px video so the content takes 
     advantage of large computer screens while keeping lines of text and media from stretching too wide to read comfortably.
-<link rel="stylesheet" href="mobile.css" media="(max-width: 768px)">
+* `<link rel="stylesheet" href="mobile.css" media="(max-width: 768px)">`
     The mobile dimensions reduce outer margins to a tight 16px to 20px and push cards, images, and inputs to a full 100% width so everything stacks naturally down the screen, preventing awkward horizontal scrolling while keeping buttons and 16px form text easy and comfortable to tap with thumbs.
-<link rel="stylesheet" href="tablet.css" media="(min-width: 769px) and (max-width: 1024px)">
+* `<link rel="stylesheet" href="tablet.css" media="(min-width: 769px) and (max-width: 1024px)">`
     The tablet dimensions scale the spacing down to 32px side margins, 3.5% header padding, and a 75% contact form to balance the layout on medium sized displays, giving content plenty of breathing room without wasting screen space or crowding touch navigation.
 
 
