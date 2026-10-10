@@ -34,7 +34,7 @@ The website utilizes a dual-font strategy imported from Google Fonts alongside a
 
 * **Header Title (`header h1`):**
   * `font-family: "Satisfy", cursive`.
-  * Google Fonts preconnect links are included in the `<head>` of all pages (`https://fonts.googleapis.com` and `https://fonts.gstatic.com`) to optimize font delivery latency, importing both `Playfair Display` and `Satisfy`[cite: 8, 10].
+  * Google Fonts preconnect links are included in the `<head>` of all pages (`https://fonts.googleapis.com` and `https://fonts.gstatic.com`) to optimize font delivery latency, importing both `Playfair Display` and `Satisfy`.
 
 * **Body & General Content:**
   * `font-family: Arial, Helvetica, sans-serif`.
@@ -42,10 +42,9 @@ The website utilizes a dual-font strategy imported from Google Fonts alongside a
 
 ## 3. Color Palette & Scheme
 
-The website uses a warm pastel and earth-toned palette designed for soft contrast and readability:
-
+The website uses a warm pastel and earth-toned palette from Adobe Color, designed for soft contrast and readability:
 | Element | Color Name / Hex Value | Role & Usage |
-
+|---|---|---|
 | **Site Background** | `#F2D3D0` | Soft pastel background applied across the entire `body`. |
 | **Header & Footer** | `#F7B4AE` | Accent peach-coral used for the top header banner and bottom footer container. |
 | **Primary Text** | `brown` | text color applied globally to headings, paragraphs, and links. |
@@ -58,17 +57,16 @@ The website uses a warm pastel and earth-toned palette designed for soft contras
 ## 4. Gradients Used in the Project
 
 
-1. **Project Cards (`.card` in `stylesheet_2.css`, `tablet_2.css`, `mobile_2.css`):**
+1. **Project Cards (`.card` in `stylesheet.css`, `tablet.css`, `mobile.css`):**
    * **Rule:** `background: -webkit-linear-gradient(top, #F2B999 0%, #F7B4AE 100%);`
    * **Type & Direction:** Top-to-bottom vertical linear gradient.
    * **Colors:** Blends from warm peach (`#F2B999`) at `0%` to soft coral-pink (`#F7B4AE`) at `100%`.
    * **Location:** Applied to all project display cards on the Projects page (`projects.html`).
 
-2. **Contact Form Card (`#Contact .card` in `stylesheet_2.css`):**
+2. **Contact Form Card (`#Contact .card` in `stylesheet.css`):**
    * **Rule:** `background: linear-gradient(135deg, bisque 0%, #F7B4AE 100%);`
    * **Type & Direction:** 135-degree diagonal linear gradient.
    * **Colors:** Flows smoothly from light cream `bisque` at `0%` in the upper-left to coral-pink `#F7B4AE` at `100%` in the lower-right.
-   * **Location:** Applied exclusively to the form card container on the Contact page on desktop displays.
 
 
 ## 5. Viewport Breakpoints & Responsive Dimensions
@@ -79,12 +77,18 @@ Responsive behavior is divided across three distinct stylesheets linked via HTML
     The desktop dimensions use spacious 50px side margins, fluid 5% header padding, and capped element widths—like the 50% contact form and 600px video so the content takes 
     advantage of large computer screens while keeping lines of text and media from stretching too wide to read comfortably.
 * `<link rel="stylesheet" href="mobile.css" media="(max-width: 768px)">`
-    The mobile dimensions reduce outer margins to a tight 16px to 20px and push cards, images, and inputs to a full 100% width so everything stacks naturally down the screen, preventing awkward horizontal scrolling while keeping buttons and 16px form text easy and comfortable to tap with thumbs.
+    The mobile dimensions (768px and lower) reduce outer margins to a tight 16px to 20px and push cards, images, and inputs to a full 100% width so everything stacks naturally down the screen, preventing awkward horizontal scrolling while keeping buttons and 16px form text easy and comfortable to tap with thumbs.
 * `<link rel="stylesheet" href="tablet.css" media="(min-width: 769px) and (max-width: 1024px)">`
-    The tablet dimensions scale the spacing down to 32px side margins, 3.5% header padding, and a 75% contact form to balance the layout on medium sized displays, giving content plenty of breathing room without wasting screen space or crowding touch navigation.
+    The tablet dimensions scale (between 769px and 1024px) the spacing down to 32px side margins, 3.5% header padding, and a 75% contact form to balance the layout on medium sized displays, giving content plenty of breathing room without wasting screen space or crowding touch navigation.
 
 
 ## 6. References
 
  **Course Lectures & Materials:**
    * Munieb, S. A. (2026). *INFR 3120U: Web and Script Programming — Course Lecture Slides and Instructional Materials*. Faculty of Business and Information Technology, Ontario Tech University.
+
+ **Google Fonts:**
+  * Google. (n.d.). *Google Fonts*. Retrieved October 9, 2026, from https://fonts.google.com/
+
+ **Adobe Color:**
+  * Adobe Inc. (n.d.). *Adobe Color: Color wheel & color palette generator*. Retrieved October 9, 2026, from https://color.adobe.com/create
