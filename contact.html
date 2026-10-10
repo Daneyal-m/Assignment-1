@@ -6,6 +6,11 @@
     <link rel="stylesheet" href="mobile.css" media="(max-width: 768px)">
     <link rel="stylesheet" href="tablet.css" media="(min-width: 769px) and (max-width: 1024px)">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Satisfy&display=swap" rel="stylesheet">
+    
     <title>Contact me</title>
 </head>
 <body>
@@ -21,24 +26,24 @@
         </nav>
 
     </header>
-        <section id="Contact">
+        <section id="Contact">   <!-- Section for the contact me page -->
             <div class="card">
             <h2>Contact Me</h2>
 
-            <form action="mailto:mohammeddaneyal.mazher@ontariotechu.net" method="post" enctype="text/plain">
-                <label for="firstName">First Name *</label>
-                <p><input type="text" name="firstName" id="firstName" required minlength="2" placeholder="e.g. John"></p>
+            <form action="mailto:mohammeddaneyal.mazher@ontariotechu.net" method="post" enctype="text/plain">   <!-- form for contacting me | This form will send to my email address -->
+                <label for="firstName">First Name *</label>   <!-- Label for the first name input -->
+                <p><input type="text" name="firstName" id="firstName" required minlength="2" placeholder="e.g. John"></p>  <!-- Input for the first name | This input is required and must be at least 2 characters long -->
 
-                <label for="lastName">Last Name *</label>
-                <p><input type="text" name="lastName" id="lastName" required minlength="2" placeholder="e.g. Doe"></p>
+                <label for="lastName">Last Name *</label>   <!-- Label for the last name input -->
+                <p><input type="text" name="lastName" id="lastName" required minlength="2" placeholder="e.g. Doe"></p>   <!-- Input for the last name | This input is required and must be at least 2 characters long -->
 
-                <label for="email">E-mail *</label>
-                <p><input type="email" name="email" id="email" required placeholder="e.g. email@email.com"></p>
+                <label for="email">E-mail *</label>   <!-- Label for the email input -->
+                <p><input type="email" name="email" id="email" required placeholder="e.g. email@email.com"></p>   <!-- Input for the email | This input is required and must be a valid email address -->
 
-                <label for="Comments">Comments *</label>
-                <p><textarea name="Comments" id="Comments" required minlength="10" placeholder="Write your comments here..."></textarea></p>
+                <label for="Comments">Comments *</label>   <!-- Label for the comments input -->
+                <p><textarea name="Comments" id="Comments" required minlength="10" placeholder="Write your comments here..."></textarea></p>   <!-- Textarea for the comments | This input is required and must be at least 10 characters long -->
 
-                <button type="submit">Submit</button>
+                <button type="submit">Submit</button>   <!-- Button to submit the form -->
             </form>
             </div>
         </section>
