@@ -6,7 +6,7 @@
 **Course:** INFR 3120U – Web and Script Programming  
 **Date:** October 2026
 
-A responsive, multi-page personal portfolio website built using semantic HTML5 and CSS3. The project features adaptive media queries for desktop, tablet, and mobile displays, custom Google Fonts, linear gradient accents, integrated video and image media, and an accessible contact form.
+A responsive, multi page personal portfolio website built using semantic HTML5 and CSS3. The project features adaptive media queries for desktop, tablet, and mobile displays, custom Google Fonts, linear gradient accents, integrated video and image media, and an accessible contact form.
 
 ## 1. Project Overview & File Structure
 
